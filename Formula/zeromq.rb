@@ -22,6 +22,7 @@ class Zeromq < Formula
   option :universal
   option "with-libpgm", "Build with PGM extension"
   option "with-norm", "Build with NORM extension"
+  option "with-drafts", "Build with draft APIs"
 
   deprecated_option "with-pgm" => "with-libpgm"
 
